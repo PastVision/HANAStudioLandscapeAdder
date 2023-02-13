@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigator version="1.2">
+	<tree>
+		<folder name="SOLMAN">
+			<sapsystem name="CDH:ICC1ODCDHDB01:00:SYSTEMDB:AT_003RT5" />
+			<sapsystem name="CDH:ICC1ODCDHDB01:00:CDH:AT_003RT5" />
+			<sapsystem name="CDH:ICC1ODCDHDB01:00:CDJ:AT_003RT5" />
+		</folder>
+	</tree>
+	<sapsystems>
+		<sapsystem databasename="CDH" databasetype="USERDB" description="CDH Tenant" hostname="icc1odcdhdb01" instancenumber="0" open="false" secure="false" ssl="false" systemname="CDH" username="AT_003RT5">
+			<hostrole hostname="icc1odcdhdb01" publicname="icc1odcdhdb01" role="CLIENT" sqlport="30015" />
+			<hostrole hostname="icc1odcdhdb01" publicname="icc1odcdhdb01" role="MASTER" sqlport="0" />
+			<jdbc locale="en_US" validate_crtf="true" />
+			<sapcontrol state="OFF" />
+		</sapsystem>
+		<sapsystem databasename="CDJ" databasetype="USERDB" description="CDJ Tenant" hostname="icc1odcdhdb01" instancenumber="0" open="false" secure="false" ssl="false" systemname="CDH" username="AT_003RT5">
+			<hostrole hostname="icc1odcdhdb01" publicname="icc1odcdhdb01" role="CLIENT" sqlport="30015" />
+			<hostrole hostname="icc1odcdhdb01" publicname="icc1odcdhdb01" role="MASTER" sqlport="0" />
+			<jdbc locale="en_US" validate_crtf="true" />
+			<sapcontrol state="OFF" />
+		</sapsystem>
+		<sapsystem databasetype="SYSTEMDB" description="CDH SYSTEM USER" hostname="icc1odcdhdb01" instancenumber="0" open="false" secure="false" ssl="false" systemname="CDH" username="AT_003RT5">
+			<hostrole hostname="icc1odcdhdb01" publicname="icc1odcdhdb01" role="CLIENT" sqlport="30015" />
+			<hostrole hostname="icc1odcdhdb01" publicname="icc1odcdhdb01" role="MASTER" sqlport="0" />
+			<jdbc locale="en_US" validate_crtf="true" />
+		</sapsystem>
+	</sapsystems>
+</navigator>
